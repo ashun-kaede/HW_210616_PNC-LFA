@@ -18,7 +18,7 @@ def CheckPrime():
         if num == 2 or num == 3:
             isPrime = True
         elif num == 1 or num % 2 == 0:
-            flag = False
+            isPrime = False
             a = 2
             b = int(num / 2)
         else:
